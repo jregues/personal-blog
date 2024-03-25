@@ -2,12 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Blog</title>
-    <link rel="stylesheet" href="assets/CSS/form.css">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Blog Posts</title>
+    <link rel="stylesheet" href="assets/CSS/blog.css">
     <link rel="stylesheet" href="assets/CSS/styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Personal Blog Post Form</h1>
+        <p>Fill out the forms below to create your own personal blog post! Fill out your desired username, blog post title and the content of your blog post. Once you're done filling everything out, hit the 'Submit Form' button and watch as your blog post is created!</p>
+    </header>
+    <main>
+        <section class="form-content">
+            <div class="username-content">
+                <h2 id="username">Enter your Username below</h2>
+                <label for="uname">Username</label>
+                <input type="text" name="uname" id="uname">
+            </div>
+            <div class="blog-title-content">
+                <h2 id="blog-title">Enter the desired title for your blog post</h2>
+                <label for="btitle">Blog Title</label>
+                <input type="text" name="btitle" id="btitle">
+            </div>
+            <div class="blog-content-box">
+                
+                <h2 id="blog-content">Enter the content for your blog post</h2>
+                <label for="pcontent">Post Content</label>
+                <!-- <input type="text" name="pcontent" id="pcontent"> -->
+                <textarea name="pcontent" id="pcontent" cols="100" rows="30"></textarea>
+                
+            </div>
+            <button class="s-button" type="button">Submit</button>
+        </section>
+        
+    </main>
+    <footer>
+        <h3>Created by James Egues</h3>
+        <h3 class="github"><a href="https://github.com/jregues">Github</a></h3>
+    </footer>
 </body>
 </html>
