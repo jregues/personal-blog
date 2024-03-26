@@ -1,0 +1,33 @@
+/* body - make same everything same font same background color no margin */
+* {
+    font-family: 'Gill Sans';
+    background-color: darkslategrey;
+    margin: 0;
+    padding: 0;
+}
+/* header - large font and color left align small margin and padding */
+header {
+    font-size: 50px;
+    margin: 5px;
+    padding: 10px;
+}
+/* username - smaller than header h1 same align as h1 */
+.username {
+    font-size: 25px;
+    margin: 5px;
+    padding: 10px;
+}
+/* blog content - similair align as previous */
+.content {
+    font-size: 25px;
+    margin: 5px;
+    padding: 10px;
+}
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    
+   
+}

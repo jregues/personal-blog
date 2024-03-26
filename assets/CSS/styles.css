@@ -1,0 +1,16 @@
+* {
+    font-family: 'Gill Sans';
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+    color: wheat;
+}
+
+header {
+    font-size: 50px;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+}

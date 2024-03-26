@@ -1,0 +1,61 @@
+
+header {
+    display: block;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.username-content {
+    margin: 15px;
+    padding: 15px;
+}
+
+#username {
+    padding-bottom: 10px;
+
+}
+
+#uname {
+    background-color: aliceblue;
+    color: black;
+    border: 5px solid black;
+}
+
+.blog-title-content {
+    margin: 15px;
+    padding: 15px;
+}
+
+#blog-title {
+    padding-bottom: 10px;
+}
+
+#btitle {
+    background-color: aliceblue;
+    color: black;
+    border: 5px solid black;
+}
+
+.blog-content-box {
+    margin: 15px;
+    padding: 15px;
+}
+
+#blog-content {
+    padding-bottom: 10px;
+}
+
+#pcontent {
+    background-color: aliceblue;
+    color: black;
+    border: 5px solid black;
+}
+
+.s-button {
+    margin: 20px;
+    padding: 14px 16px;
+    border: 2px solid black;
+    background-color: aliceblue;
+    color: black;
+}
