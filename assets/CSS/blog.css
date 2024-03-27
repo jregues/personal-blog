@@ -1,7 +1,7 @@
 /* body - make same everything same font same background color no margin */
 * {
     font-family: 'Gill Sans';
-    background-color: darkslategrey;
+    
     margin: 0;
     padding: 0;
 }

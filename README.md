@@ -38,5 +38,8 @@ THEN I am presented with a link to the developer's portfolio.
 ```
 
 ## How to use
+Fill out the forms with your username, blog title, and the content for your blog post. Once you are happy with your blog content click on the submit button and the page will redirect to a page dedicated to your blog posts.
 
 ## Screenshots
+![a screenshot of the form page](assets/Images/pblog.png)
+![a screenshot of the blog post page](assets/Images/pblogpost.png)
