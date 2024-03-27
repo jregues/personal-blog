@@ -13,7 +13,7 @@
         <p>Fill out the forms below to create your own personal blog post! Fill out your desired username, blog post title and the content of your blog post. Once you're done filling everything out, hit the 'Submit Form' button and watch as your blog post is created!</p>
     </header>
     <main>
-        <section class="form-content">
+        <form class="form-content">
             <div class="username-content">
                 <h2 id="username">Enter your Username below</h2>
                 <input type="text" name="uname" id="uname" placeholder="Username">
@@ -28,17 +28,20 @@
                 <textarea name="pcontent" id="pcontent" cols="100" rows="30" placeholder="Blog content"></textarea>
                 
             </div>
-            <button class="s-button" type="button">Submit</button>
-            <!--  -->
-        </section>
+            <button class="s-button" type="submit">Submit</button>
+            
+        </form>
         
     </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="assets/JavaScript/form.js"></script>
-    <script src="assets/JavaScript/logic.js"></script>
+    
+    
+    
     <footer>
         <h3>Created by James Egues</h3>
         <h3 class="github"><a href="https://github.com/jregues">Github</a></h3>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/JavaScript/form.js"></script>
+    <script src="assets/JavaScript/logic.js"></script>
 </body>
 </html>

@@ -1,14 +1,28 @@
 * {
+    /* display: flex; */
     font-family: 'Gill Sans';
-    margin: 0;
-    padding: 0;
-    background-color: darkslategrey;
-    color: wheat;
+    margin-top: auto;
+    /* padding: 0; */
+    /* flex-direction: column; */
+    
 }
 
 header {
     font-size: 50px;
+    background-color: darkslategrey;
+    color: wheat;
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    
+} 
 
 footer {
     font-size: 20px;
