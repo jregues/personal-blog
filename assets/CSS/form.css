@@ -1,7 +1,6 @@
-
-header {
-    display: block;
+#intro {
     text-align: center;
+    font-size: 50px;
     margin: 5px;
     padding: 10px;
 }

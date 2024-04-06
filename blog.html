@@ -8,16 +8,24 @@
     <link rel="stylesheet" href="assets/CSS/styles.css">
 </head>
 <header>
-    <h1>Blog title</h1>
+    <h1>Blog Posts</h1>
+    <nav>
+        <button id="mode-toggle">Toggle Mode</button>
+        <a href="./index.html">Form Page</a>
+    </nav>
 </header>
 <body>
-    
     <main>
         <section>
-            <div class="username">Created by 'your username'</div>
-            <div class="content">'text'</div>
+            <div id="title"></div>
+            <div id="username"></div>
+            <div id="content"></div>
+            <button id="goBack" type="button">Go back</button>
         </section>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/JavaScript/logic.js"></script>
+    <script src="assets/JavaScript/blog.js"></script>
     <footer>
         <h3>Created by James Egues</h3>
         <h3 class="github"><a href="https://github.com/jregues">Github</a></h3>

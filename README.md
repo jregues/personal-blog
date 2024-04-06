@@ -2,6 +2,10 @@
 
 This site was created for my 4th challenge in the UNCC Coding Bootcamp. It is a site that provides users with a space to create personal blogs. The site is designed to take you to a separate page where you can create blog posts that will save to your local storage so that they do not disappear when you reload the page. This site was made in accordance with the following User Story and Acceptance Criteria.
 
+## Link to github pages
+
+https://jregues.github.io/personal-blog/
+
 ## User Story
 ```
 AS A marketing student,

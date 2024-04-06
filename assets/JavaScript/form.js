@@ -1,54 +1,30 @@
+// Create an object with form data
+$('form').on('submit', function (event) {
+    event.preventDefault();
+    const formData = {
+        username: document.getElementById('uname').value,
+        blogtitle: document.getElementById('btitle').value,
+        blogcontent: document.getElementById('pcontent').value
+    };
 
-// function handleSubmissionForm(event) {
-//     event.preventDefault();
-//     sub.on('submit', function() {
-//         location.replace('blog.html')
-//     })
-// }
+    // Convert object to JSON string
+    const jsonData = JSON.stringify(formData);
 
-// // 
+    // Store JSON string in local storage
+    localStorage.setItem('formData', jsonData);
+    const form = localStorage.getItem('formData');
+    const formD = JSON.parse(form);
 
-
-
-// const form = $('form-content');
-// // form.style.display = 'none';
-
-// form.submit(function(event){
-//     event.preventDefault();
-//     location.replace('blog.html')
-// })
-// const formContent = document.getElementById('form-content')
-
-// function handleSubmissionForm() {
-// addEventListener("submit", function(event) {
-//     event.preventDefault(); // stop submission
-//     const username = document.getElementById('username').value;
-//     localStorage.setItem("username",username);
-//     window.location.pathname = "resources/blog.html";
-//     console.log('buttonclicked')
-//   })
-// }
-
-// const button = document.getElementById("button");
-//  button.addEventListener("submit", function() {
-// console.log("Button was clicked!");
-// });
-
-const button = $('.s-button');
-
-// button.on('submit', function(event) {
-//     event.preventDefault(); // stop submission
-//     const username = document.getElementById('username').value;
-//     localStorage.setItem("username",username);
-//     location.replace('blog.html')
-//     console.log('buttonclicked')
-
-// })
-
-const username = $('#uname');
-
-
-
-localStorage.getItem(username)
-localStorage.setItem(username, 'username')
-console.log(username)
+    console.log(formD);
+    if (formData.username && formData.blogtitle && formData.blogcontent) {
+    window.location.replace('./blog.html')
+    } else if (!formData.username) {
+        window.alert('Please fill out your username!')
+    } else if (!formData.blogtitle) {
+        window.alert('Please enter your blog title!')
+    } else if (!formData.blogcontent) {
+        window.alert('Please enter your blog content!')
+    } else {
+        window.alert('Please fill out the form!')
+    }
+})

@@ -10,10 +10,16 @@
 <body>
     <header>
         <h1>Personal Blog Post Form</h1>
-        <p>Fill out the forms below to create your own personal blog post! Fill out your desired username, blog post title and the content of your blog post. Once you're done filling everything out, hit the 'Submit Form' button and watch as your blog post is created!</p>
+        <nav>
+            <button id="mode-toggle">Toggle Mode</button>
+            <a href="./blog.html">Blog Posts</a>
+        </nav>
     </header>
     <main>
-        <form class="form-content">
+        <div id="intro">
+            <p>Fill out the forms below to create your own personal blog post! Fill out your desired username, blog post title and the content of your blog post. Once you're done filling everything out, hit the 'Submit Form' button and watch as your blog post is created!</p>
+        </div>
+        <form id="forms" class="form-content">
             <div class="username-content">
                 <h2 id="username">Enter your Username below</h2>
                 <input type="text" name="uname" id="uname" placeholder="Username">
@@ -22,20 +28,13 @@
                 <h2 id="blog-title">Enter the desired title for your blog post</h2>
                 <input type="text" name="btitle" id="btitle" placeholder="Blog title">
             </div>
-            <div class="blog-content-box">
-                
+            <div class="blog-content-box"> 
                 <h2 id="blog-content">Enter the content for your blog post</h2>
-                <textarea name="pcontent" id="pcontent" cols="100" rows="30" placeholder="Blog content"></textarea>
-                
+                <textarea name="pcontent" id="pcontent" cols="100" rows="30" placeholder="Blog content"></textarea> 
             </div>
-            <button class="s-button" type="submit">Submit</button>
-            
+            <button class="s-button" type="submit">Submit</button> 
         </form>
-        
     </main>
-    
-    
-    
     <footer>
         <h3>Created by James Egues</h3>
         <h3 class="github"><a href="https://github.com/jregues">Github</a></h3>
